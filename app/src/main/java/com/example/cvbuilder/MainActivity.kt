@@ -5,8 +5,11 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.EditText
+import android.widget.TextView
 
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_contact.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-
+        var address="DD Street"
+        val x=findViewById<TextView>(R.id.txtStreet) //as EditText
+//     x.text="gg"
         val adapter=MyAdapter(supportFragmentManager)
         adapter.addFragment(HomeFragment(),"Home")
         adapter.addFragment(AboutMeFragment(),"About me")
