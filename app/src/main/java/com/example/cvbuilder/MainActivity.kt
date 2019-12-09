@@ -1,14 +1,20 @@
 package com.example.cvbuilder
 
+import android.app.Activity
+import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_about_me.*
 import kotlinx.android.synthetic.main.fragment_contact.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,9 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-        var address="DD Street"
-        val x=findViewById<TextView>(R.id.txtStreet) //as EditText
-//     x.text="gg"
         val adapter=MyAdapter(supportFragmentManager)
         adapter.addFragment(HomeFragment(),"Home")
         adapter.addFragment(AboutMeFragment(),"About me")
@@ -30,14 +33,29 @@ class MainActivity : AppCompatActivity() {
         tabs.setupWithViewPager(viewPager)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            var msgIntent=Intent(this,newSkill::class.java)
+
+            startActivityForResult(msgIntent,1)
+
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode== 1 && resultCode== Activity.RESULT_OK) {
+            textView11?.setTextColor(Color.BLUE)
+            val result= data!!.data!!.toString()
+            var b:StringBuilder=java.lang.StringBuilder(result)
+            b.append("\n")
+            textView11?.append(b)
+            Toast.makeText(this, "New skill $result added to the list",Toast.LENGTH_LONG).show()
         }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
+
         return true
     }
 

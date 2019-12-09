@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:text="Educational"
+        android:text="Education"
         android:textColor="#03A9F4"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -22,10 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
-        android:text=" BA in English Literature
-        Cambridge University | Cambridge, US | 2017  3.8 CGPA
-         \n Masters in Computer Science     4.0 GPA
- Stanford University | Chicago, US | 2013   " />
+        android:text="@string/ba_in" />
 
     <TextView
         android:id="@+id/textView8"
@@ -33,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="120dp"
-        android:text="TextView"
+        android:text="@string/textview"
 
         android:textColor="#03A9F4"
         android:textSize="18sp"
@@ -64,6 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="300dp"
-        android:text="@string/tech" />
+        android:inputType="textMultiLine"/>
+<!--    android:text="@string/tech"-->
+
 
 </FrameLayout>
