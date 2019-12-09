@@ -28,7 +28,8 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="33dp"
                 android:text="Role"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtOrg"
@@ -41,7 +42,8 @@
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="41dp"
                 android:text="Organization"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtAddress"
@@ -54,7 +56,8 @@
                 android:layout_marginLeft="34dp"
                 android:layout_marginTop="45dp"
                 android:text="Address"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtDuties"
@@ -67,7 +70,8 @@
                 android:layout_marginLeft="39dp"
                 android:layout_marginTop="53dp"
                 android:text="Duties"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtTo"
@@ -80,7 +84,8 @@
                 android:layout_marginLeft="231dp"
                 android:layout_marginTop="75dp"
                 android:text="To"
-                android:textSize="24sp" />
+                android:textColor="#0E0D0C"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editFrom"
@@ -93,7 +98,8 @@
                 android:layout_toEndOf="@+id/txtFrom"
                 android:layout_toRightOf="@+id/txtFrom"
                 android:ems="10"
-                android:inputType="date" />
+                android:inputType="date"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editTo"
@@ -110,7 +116,8 @@
                 android:layout_toEndOf="@+id/txtTo"
                 android:layout_toRightOf="@+id/txtTo"
                 android:ems="10"
-                android:inputType="date" />
+                android:inputType="date"
+                android:textColor="#292626" />
 
             <TextView
                 android:id="@+id/txtFrom"
@@ -123,7 +130,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="74dp"
                 android:text="From"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editRole"
@@ -136,7 +144,8 @@
                 android:layout_toEndOf="@+id/txtRole"
                 android:layout_toRightOf="@+id/txtRole"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editOrg"
@@ -149,7 +158,8 @@
                 android:layout_toEndOf="@+id/txtOrg"
                 android:layout_toRightOf="@+id/txtOrg"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editAddress"
@@ -162,7 +172,8 @@
                 android:layout_toEndOf="@+id/txtAddress"
                 android:layout_toRightOf="@+id/txtAddress"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editDuties"
@@ -176,7 +187,8 @@
                 android:layout_toRightOf="@+id/txtDuties"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:inputType="textMultiLine"
+                android:textColor="#292626" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -194,7 +206,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="35dp"
                 android:text="Role"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtOrg2"
@@ -207,7 +220,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="41dp"
                 android:text="Organization"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtAddress2"
@@ -220,7 +234,8 @@
                 android:layout_marginLeft="27dp"
                 android:layout_marginTop="45dp"
                 android:text="Address"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtDuties2"
@@ -233,7 +248,8 @@
                 android:layout_marginLeft="28dp"
                 android:layout_marginTop="53dp"
                 android:text="Duties"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/txtTo2"
@@ -246,7 +262,8 @@
                 android:layout_marginLeft="231dp"
                 android:layout_marginTop="77dp"
                 android:text="To"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editTo2"
@@ -259,7 +276,8 @@
                 android:layout_toEndOf="@+id/txtFrom2"
                 android:layout_toRightOf="@+id/txtFrom2"
                 android:ems="10"
-                android:inputType="date" />
+                android:inputType="date"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editFrom2"
@@ -276,7 +294,8 @@
                 android:layout_toEndOf="@+id/txtTo2"
                 android:layout_toRightOf="@+id/txtTo2"
                 android:ems="10"
-                android:inputType="date" />
+                android:inputType="date"
+                android:textColor="#292626" />
 
             <TextView
                 android:id="@+id/txtFrom2"
@@ -289,7 +308,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="74dp"
                 android:text="From"
-                android:textSize="24sp" />
+                android:textColor="#E9CC65"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editRole2"
@@ -302,7 +322,8 @@
                 android:layout_toEndOf="@+id/txtRole2"
                 android:layout_toRightOf="@+id/txtRole2"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#13120E" />
 
             <EditText
                 android:id="@+id/editOrg2"
@@ -315,7 +336,8 @@
                 android:layout_toEndOf="@+id/txtOrg2"
                 android:layout_toRightOf="@+id/txtOrg2"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editAddress2"
@@ -328,7 +350,8 @@
                 android:layout_toEndOf="@+id/txtAddress2"
                 android:layout_toRightOf="@+id/txtAddress2"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
 
             <EditText
                 android:id="@+id/editDuties2"
@@ -342,7 +365,8 @@
                 android:layout_toRightOf="@+id/txtDuties2"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:inputType="textMultiLine"
+                android:textColor="#292626" />
         </RelativeLayout>
 
 

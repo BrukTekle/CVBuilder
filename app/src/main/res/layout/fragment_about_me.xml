@@ -12,7 +12,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:text="Education"
-        android:textColor="#03A9F4"
+        android:textColor="#E9CC65"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
         android:layout_marginTop="120dp"
         android:text="@string/textview"
 
-        android:textColor="#03A9F4"
+        android:textColor="#E9CC65"
         android:textSize="18sp"
         tools:text="Work Experience  " />
 
@@ -52,7 +52,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="270dp"
         android:text="Technical Knowldge and skill"
-        android:textColor="#03A9F4"
+        android:textColor="#E9CC65"
         android:textSize="18sp" />
 
     <TextView

@@ -20,7 +20,8 @@
             android:layout_marginLeft="55dp"
             android:layout_marginTop="84dp"
             android:text="Street"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txtCity"
@@ -33,7 +34,8 @@
             android:layout_marginLeft="55dp"
             android:layout_marginTop="45dp"
             android:text="City"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txtState"
@@ -46,7 +48,8 @@
             android:layout_marginLeft="56dp"
             android:layout_marginTop="48dp"
             android:text="State"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txtCountry"
@@ -59,7 +62,8 @@
             android:layout_marginLeft="54dp"
             android:layout_marginTop="55dp"
             android:text="Country"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txtPhone"
@@ -72,7 +76,8 @@
             android:layout_marginLeft="58dp"
             android:layout_marginTop="53dp"
             android:text="Phone"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txtEmail"
@@ -85,7 +90,8 @@
             android:layout_marginLeft="63dp"
             android:layout_marginTop="52dp"
             android:text="Email"
-            android:textSize="24sp" />
+            android:textColor="#E9CC65"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editStreet"
@@ -102,7 +108,8 @@
             android:layout_toEndOf="@+id/txtStreet"
             android:layout_toRightOf="@+id/txtStreet"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
 
         <EditText
             android:id="@+id/editCity"
@@ -119,7 +126,8 @@
             android:layout_toEndOf="@+id/txtCity"
             android:layout_toRightOf="@+id/txtCity"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
 
         <EditText
             android:id="@+id/editState"
@@ -136,7 +144,8 @@
             android:layout_toEndOf="@+id/txtState"
             android:layout_toRightOf="@+id/txtState"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
 
         <EditText
             android:id="@+id/editCountry"
@@ -153,7 +162,8 @@
             android:layout_toEndOf="@+id/txtCountry"
             android:layout_toRightOf="@+id/txtCountry"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
 
         <EditText
             android:id="@+id/editPhone"
@@ -170,7 +180,8 @@
             android:layout_toEndOf="@+id/txtPhone"
             android:layout_toRightOf="@+id/txtPhone"
             android:ems="10"
-            android:inputType="phone" />
+            android:inputType="phone"
+            android:textColor="#292626" />
 
         <EditText
             android:id="@+id/editEmail"
@@ -187,7 +198,8 @@
             android:layout_toEndOf="@+id/txtEmail"
             android:layout_toRightOf="@+id/txtEmail"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="#292626" />
 
 
 
